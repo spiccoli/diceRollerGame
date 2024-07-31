@@ -1,6 +1,7 @@
 
 
 function rolldice(){
+
     const numberOfDiceInput = document.getElementById("numberOfDice");
     const numberOfDice = parseInt(numberOfDiceInput.value, 10); 
     const diceResult = document.getElementById("diceResult");
@@ -20,5 +21,5 @@ function rolldice(){
         }
         diceResult.textContent = `${diceResults.join(", ")}`;
         diceImg.innerHTML = diceImages.join("");
-    }
+        }
 }

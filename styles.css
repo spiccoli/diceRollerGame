@@ -2,7 +2,6 @@
     font: bold 2rem Arial, sans-serif;
     text-align: center;
 }
-
 button {
     padding: 15px;
     background-color: hsl(156, 93%, 40%);
@@ -12,30 +11,24 @@ button {
     color: white;
     cursor: pointer;
 }
-
 button:hover {
     background-color: hsl(156, 93%, 55%);
 }
-
 button:active {
     background-color: hsl(156, 93%, 84%);
 }
-
 input {
     font: bold 0.8em sans-serif;
     width: 55px;
 }
-
 #diceResult {
     margin: 25px 0;
 }
-
 #diceImg {
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
 #diceImg img {
     width: 70px;
     height: auto;
