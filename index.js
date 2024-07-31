@@ -16,7 +16,7 @@ function rolldice(){
         for (let i = 0; i < numberOfDice ; i++){
             let randomNum = Math.floor(Math.random() * 6) + 1;
             diceResults.push(randomNum);
-            diceImages.push(`<img src="diceImg/dice-six-faces-${randomNum}.svg" alt="dice value: ${randomNum}">`);
+            diceImages.push(`<img src="folderDiceImg/dice-six-faces-${randomNum}.svg" alt="dice value: ${randomNum}">`);
         }
         diceResult.textContent = `${diceResults.join(", ")}`;
         diceImg.innerHTML = diceImages.join("");
